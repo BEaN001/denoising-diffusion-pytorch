@@ -1,0 +1,33 @@
+code part: https://huggingface.co/blog/annotated-diffusion
+
+Network helpers
+
+Position Embedding
+
+ResNet/ConvNeXT block
+
+Attention Module
+
+Group Normalization
+
+Conditional UNet
+
+Defining the forward diffusion process: show the process with an image
+
+Define a Pytorch Dataset + DataLoader: datasets from huggingface DatasetLibrary, with_transform functionality
+
+Sampling: sample during training
+
+Train the model:
+
+Follow up reading:
+Below, we list some important (but far from exhaustive) follow-up works:
+
+Improved Denoising Diffusion Probabilistic Models (Nichol et al., 2021): finds that learning the variance of the conditional distribution (besides the mean) helps in improving performance
+Cascaded Diffusion Models for High Fidelity Image Generation (Ho et al., 2021): introduces cascaded diffusion, which comprises a pipeline of multiple diffusion models that generate images of increasing resolution for high-fidelity image synthesis
+Diffusion Models Beat GANs on Image Synthesis (Dhariwal et al., 2021): show that diffusion models can achieve image sample quality superior to the current state-of-the-art generative models by improving the U-Net architecture, as well as introducing classifier guidance
+Classifier-Free Diffusion Guidance (Ho et al., 2021): shows that you don't need a classifier for guiding a diffusion model by jointly training a conditional and an unconditional diffusion model with a single neural network
+Hierarchical Text-Conditional Image Generation with CLIP Latents (DALL-E 2) (Ramesh et al., 2022): uses a prior to turn a text caption into a CLIP image embedding, after which a diffusion model decodes it into an image
+Photorealistic Text-to-Image Diffusion Models with Deep Language Understanding (ImageGen) (Saharia et al., 2022): shows that combining a large pre-trained language model (e.g. T5) with cascaded diffusion works well for text-to-image synthesis
+
+

@@ -1,0 +1,158 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Attention	denoising_diffusion_pytorch/denoising_diffusion_pytorch.py	/^class Attention(nn.Module):$/;"	c
+Block	denoising_diffusion_pytorch/denoising_diffusion_pytorch.py	/^class Block(nn.Module):$/;"	c
+ContinuousTimeGaussianDiffusion	denoising_diffusion_pytorch/continuous_time_gaussian_diffusion.py	/^class ContinuousTimeGaussianDiffusion(nn.Module):$/;"	c
+Dataset	denoising_diffusion_pytorch/denoising_diffusion_pytorch.py	/^class Dataset(Dataset):$/;"	c
+Downsample	denoising_diffusion_pytorch/denoising_diffusion_pytorch.py	/^def Downsample(dim, dim_out = None):$/;"	f
+ElucidatedDiffusion	denoising_diffusion_pytorch/elucidated_diffusion.py	/^class ElucidatedDiffusion(nn.Module):$/;"	c
+GaussianDiffusion	denoising_diffusion_pytorch/denoising_diffusion_pytorch.py	/^class GaussianDiffusion(nn.Module):$/;"	c
+LayerNorm	denoising_diffusion_pytorch/denoising_diffusion_pytorch.py	/^class LayerNorm(nn.Module):$/;"	c
+LearnedGaussianDiffusion	denoising_diffusion_pytorch/learned_gaussian_diffusion.py	/^class LearnedGaussianDiffusion(GaussianDiffusion):$/;"	c
+LearnedSinusoidalPosEmb	denoising_diffusion_pytorch/denoising_diffusion_pytorch.py	/^class LearnedSinusoidalPosEmb(nn.Module):$/;"	c
+LinearAttention	denoising_diffusion_pytorch/denoising_diffusion_pytorch.py	/^class LinearAttention(nn.Module):$/;"	c
+ModelPrediction	denoising_diffusion_pytorch/denoising_diffusion_pytorch.py	/^ModelPrediction =  namedtuple('ModelPrediction', ['pred_noise', 'pred_x_start'])$/;"	v
+ModelPrediction	denoising_diffusion_pytorch/learned_gaussian_diffusion.py	/^ModelPrediction = namedtuple('ModelPrediction', ['pred_noise', 'pred_x_start', 'pred_variance'])$/;"	v
+MonotonicLinear	denoising_diffusion_pytorch/continuous_time_gaussian_diffusion.py	/^class MonotonicLinear(nn.Module):$/;"	c
+NAT	denoising_diffusion_pytorch/learned_gaussian_diffusion.py	/^NAT = 1. \/ ln(2)$/;"	v
+PreNorm	denoising_diffusion_pytorch/denoising_diffusion_pytorch.py	/^class PreNorm(nn.Module):$/;"	c
+Residual	denoising_diffusion_pytorch/continuous_time_gaussian_diffusion.py	/^class Residual(nn.Module):$/;"	c
+Residual	denoising_diffusion_pytorch/denoising_diffusion_pytorch.py	/^class Residual(nn.Module):$/;"	c
+ResnetBlock	denoising_diffusion_pytorch/denoising_diffusion_pytorch.py	/^class ResnetBlock(nn.Module):$/;"	c
+SinusoidalPosEmb	denoising_diffusion_pytorch/denoising_diffusion_pytorch.py	/^class SinusoidalPosEmb(nn.Module):$/;"	c
+Trainer	denoising_diffusion_pytorch/denoising_diffusion_pytorch.py	/^class Trainer(object):$/;"	c
+Unet	denoising_diffusion_pytorch/denoising_diffusion_pytorch.py	/^class Unet(nn.Module):$/;"	c
+Upsample	denoising_diffusion_pytorch/denoising_diffusion_pytorch.py	/^def Upsample(dim, dim_out = None):$/;"	f
+WeightStandardizedConv2d	denoising_diffusion_pytorch/denoising_diffusion_pytorch.py	/^class WeightStandardizedConv2d(nn.Conv2d):$/;"	c
+WeightedObjectiveGaussianDiffusion	denoising_diffusion_pytorch/weighted_objective_gaussian_diffusion.py	/^class WeightedObjectiveGaussianDiffusion(GaussianDiffusion):$/;"	c
+__getitem__	denoising_diffusion_pytorch/denoising_diffusion_pytorch.py	/^    def __getitem__(self, index):$/;"	m	class:Dataset	file:
+__init__	denoising_diffusion_pytorch/continuous_time_gaussian_diffusion.py	/^    def __init__($/;"	m	class:ContinuousTimeGaussianDiffusion
+__init__	denoising_diffusion_pytorch/continuous_time_gaussian_diffusion.py	/^    def __init__($/;"	m	class:learned_noise_schedule
+__init__	denoising_diffusion_pytorch/continuous_time_gaussian_diffusion.py	/^    def __init__(self, *args, **kwargs):$/;"	m	class:MonotonicLinear
+__init__	denoising_diffusion_pytorch/continuous_time_gaussian_diffusion.py	/^    def __init__(self, fn):$/;"	m	class:Residual
+__init__	denoising_diffusion_pytorch/denoising_diffusion_pytorch.py	/^    def __init__($/;"	m	class:Dataset
+__init__	denoising_diffusion_pytorch/denoising_diffusion_pytorch.py	/^    def __init__($/;"	m	class:GaussianDiffusion
+__init__	denoising_diffusion_pytorch/denoising_diffusion_pytorch.py	/^    def __init__($/;"	m	class:Trainer
+__init__	denoising_diffusion_pytorch/denoising_diffusion_pytorch.py	/^    def __init__($/;"	m	class:Unet
+__init__	denoising_diffusion_pytorch/denoising_diffusion_pytorch.py	/^    def __init__(self, dim):$/;"	m	class:LayerNorm
+__init__	denoising_diffusion_pytorch/denoising_diffusion_pytorch.py	/^    def __init__(self, dim):$/;"	m	class:LearnedSinusoidalPosEmb
+__init__	denoising_diffusion_pytorch/denoising_diffusion_pytorch.py	/^    def __init__(self, dim):$/;"	m	class:SinusoidalPosEmb
+__init__	denoising_diffusion_pytorch/denoising_diffusion_pytorch.py	/^    def __init__(self, dim, dim_out, *, time_emb_dim = None, groups = 8):$/;"	m	class:ResnetBlock
+__init__	denoising_diffusion_pytorch/denoising_diffusion_pytorch.py	/^    def __init__(self, dim, dim_out, groups = 8):$/;"	m	class:Block
+__init__	denoising_diffusion_pytorch/denoising_diffusion_pytorch.py	/^    def __init__(self, dim, fn):$/;"	m	class:PreNorm
+__init__	denoising_diffusion_pytorch/denoising_diffusion_pytorch.py	/^    def __init__(self, dim, heads = 4, dim_head = 32):$/;"	m	class:LinearAttention
+__init__	denoising_diffusion_pytorch/denoising_diffusion_pytorch.py	/^    def __init__(self, dim, heads = 4, dim_head = 32, scale = 10):$/;"	m	class:Attention
+__init__	denoising_diffusion_pytorch/denoising_diffusion_pytorch.py	/^    def __init__(self, fn):$/;"	m	class:Residual
+__init__	denoising_diffusion_pytorch/elucidated_diffusion.py	/^    def __init__($/;"	m	class:ElucidatedDiffusion
+__init__	denoising_diffusion_pytorch/learned_gaussian_diffusion.py	/^    def __init__($/;"	m	class:LearnedGaussianDiffusion
+__init__	denoising_diffusion_pytorch/weighted_objective_gaussian_diffusion.py	/^    def __init__($/;"	m	class:WeightedObjectiveGaussianDiffusion
+__len__	denoising_diffusion_pytorch/denoising_diffusion_pytorch.py	/^    def __len__(self):$/;"	m	class:Dataset	file:
+alpha_cosine_log_snr	denoising_diffusion_pytorch/continuous_time_gaussian_diffusion.py	/^def alpha_cosine_log_snr(t, s = 0.008):$/;"	f
+approx_standard_normal_cdf	denoising_diffusion_pytorch/learned_gaussian_diffusion.py	/^def approx_standard_normal_cdf(x):$/;"	f
+author	setup.py	/^  author = 'Phil Wang',$/;"	v
+author_email	setup.py	/^  author_email = 'lucidrains@gmail.com',$/;"	v
+beta_linear_log_snr	denoising_diffusion_pytorch/continuous_time_gaussian_diffusion.py	/^def beta_linear_log_snr(t):$/;"	f
+c_in	denoising_diffusion_pytorch/elucidated_diffusion.py	/^    def c_in(self, sigma):$/;"	m	class:ElucidatedDiffusion
+c_noise	denoising_diffusion_pytorch/elucidated_diffusion.py	/^    def c_noise(self, sigma):$/;"	m	class:ElucidatedDiffusion
+c_out	denoising_diffusion_pytorch/elucidated_diffusion.py	/^    def c_out(self, sigma):$/;"	m	class:ElucidatedDiffusion
+c_skip	denoising_diffusion_pytorch/elucidated_diffusion.py	/^    def c_skip(self, sigma):$/;"	m	class:ElucidatedDiffusion
+classifiers	setup.py	/^  classifiers=[$/;"	v
+convert_image_to_fn	denoising_diffusion_pytorch/denoising_diffusion_pytorch.py	/^def convert_image_to_fn(img_type, image):$/;"	f
+cosine_beta_schedule	denoising_diffusion_pytorch/denoising_diffusion_pytorch.py	/^def cosine_beta_schedule(timesteps, s = 0.008):$/;"	f
+cycle	denoising_diffusion_pytorch/denoising_diffusion_pytorch.py	/^def cycle(dl):$/;"	f
+ddim_sample	denoising_diffusion_pytorch/denoising_diffusion_pytorch.py	/^    def ddim_sample(self, shape, clip_denoised = True):$/;"	m	class:GaussianDiffusion
+default	denoising_diffusion_pytorch/continuous_time_gaussian_diffusion.py	/^def default(val, d):$/;"	f
+default	denoising_diffusion_pytorch/denoising_diffusion_pytorch.py	/^def default(val, d):$/;"	f
+default	denoising_diffusion_pytorch/elucidated_diffusion.py	/^def default(val, d):$/;"	f
+default	denoising_diffusion_pytorch/learned_gaussian_diffusion.py	/^def default(val, d):$/;"	f
+default	denoising_diffusion_pytorch/weighted_objective_gaussian_diffusion.py	/^def default(val, d):$/;"	f
+description	setup.py	/^  description = 'Denoising Diffusion Probabilistic Models - Pytorch',$/;"	v
+device	denoising_diffusion_pytorch/continuous_time_gaussian_diffusion.py	/^    def device(self):$/;"	m	class:ContinuousTimeGaussianDiffusion
+device	denoising_diffusion_pytorch/elucidated_diffusion.py	/^    def device(self):$/;"	m	class:ElucidatedDiffusion
+discretized_gaussian_log_likelihood	denoising_diffusion_pytorch/learned_gaussian_diffusion.py	/^def discretized_gaussian_log_likelihood(x, *, means, log_scales, thres = 0.999):$/;"	f
+exists	denoising_diffusion_pytorch/continuous_time_gaussian_diffusion.py	/^def exists(val):$/;"	f
+exists	denoising_diffusion_pytorch/denoising_diffusion_pytorch.py	/^def exists(x):$/;"	f
+exists	denoising_diffusion_pytorch/elucidated_diffusion.py	/^def exists(val):$/;"	f
+exists	denoising_diffusion_pytorch/learned_gaussian_diffusion.py	/^def exists(x):$/;"	f
+exists	denoising_diffusion_pytorch/weighted_objective_gaussian_diffusion.py	/^def exists(x):$/;"	f
+extract	denoising_diffusion_pytorch/denoising_diffusion_pytorch.py	/^def extract(a, t, x_shape):$/;"	f
+forward	denoising_diffusion_pytorch/continuous_time_gaussian_diffusion.py	/^    def forward(self, img, *args, **kwargs):$/;"	m	class:ContinuousTimeGaussianDiffusion
+forward	denoising_diffusion_pytorch/continuous_time_gaussian_diffusion.py	/^    def forward(self, x):$/;"	m	class:MonotonicLinear
+forward	denoising_diffusion_pytorch/continuous_time_gaussian_diffusion.py	/^    def forward(self, x):$/;"	m	class:Residual
+forward	denoising_diffusion_pytorch/continuous_time_gaussian_diffusion.py	/^    def forward(self, x):$/;"	m	class:learned_noise_schedule
+forward	denoising_diffusion_pytorch/denoising_diffusion_pytorch.py	/^    def forward(self, img, *args, **kwargs):$/;"	m	class:GaussianDiffusion
+forward	denoising_diffusion_pytorch/denoising_diffusion_pytorch.py	/^    def forward(self, x):$/;"	m	class:Attention
+forward	denoising_diffusion_pytorch/denoising_diffusion_pytorch.py	/^    def forward(self, x):$/;"	m	class:LayerNorm
+forward	denoising_diffusion_pytorch/denoising_diffusion_pytorch.py	/^    def forward(self, x):$/;"	m	class:LearnedSinusoidalPosEmb
+forward	denoising_diffusion_pytorch/denoising_diffusion_pytorch.py	/^    def forward(self, x):$/;"	m	class:LinearAttention
+forward	denoising_diffusion_pytorch/denoising_diffusion_pytorch.py	/^    def forward(self, x):$/;"	m	class:PreNorm
+forward	denoising_diffusion_pytorch/denoising_diffusion_pytorch.py	/^    def forward(self, x):$/;"	m	class:SinusoidalPosEmb
+forward	denoising_diffusion_pytorch/denoising_diffusion_pytorch.py	/^    def forward(self, x):$/;"	m	class:WeightStandardizedConv2d
+forward	denoising_diffusion_pytorch/denoising_diffusion_pytorch.py	/^    def forward(self, x, *args, **kwargs):$/;"	m	class:Residual
+forward	denoising_diffusion_pytorch/denoising_diffusion_pytorch.py	/^    def forward(self, x, scale_shift = None):$/;"	m	class:Block
+forward	denoising_diffusion_pytorch/denoising_diffusion_pytorch.py	/^    def forward(self, x, time, x_self_cond = None):$/;"	m	class:Unet
+forward	denoising_diffusion_pytorch/denoising_diffusion_pytorch.py	/^    def forward(self, x, time_emb = None):$/;"	m	class:ResnetBlock
+forward	denoising_diffusion_pytorch/elucidated_diffusion.py	/^    def forward(self, images):$/;"	m	class:ElucidatedDiffusion
+has_int_squareroot	denoising_diffusion_pytorch/denoising_diffusion_pytorch.py	/^def has_int_squareroot(num):$/;"	f
+identity	denoising_diffusion_pytorch/denoising_diffusion_pytorch.py	/^def identity(t, *args, **kwargs):$/;"	f
+install_requires	setup.py	/^  install_requires=[$/;"	v
+interpolate	denoising_diffusion_pytorch/denoising_diffusion_pytorch.py	/^    def interpolate(self, x1, x2, t = None, lam = 0.5):$/;"	m	class:GaussianDiffusion
+keywords	setup.py	/^  keywords = [$/;"	v
+l2norm	denoising_diffusion_pytorch/denoising_diffusion_pytorch.py	/^def l2norm(t):$/;"	f
+learned_noise_schedule	denoising_diffusion_pytorch/continuous_time_gaussian_diffusion.py	/^class learned_noise_schedule(nn.Module):$/;"	c
+license	setup.py	/^  license='MIT',$/;"	v
+linear_beta_schedule	denoising_diffusion_pytorch/denoising_diffusion_pytorch.py	/^def linear_beta_schedule(timesteps):$/;"	f
+load	denoising_diffusion_pytorch/denoising_diffusion_pytorch.py	/^    def load(self, milestone):$/;"	m	class:Trainer
+log	denoising_diffusion_pytorch/continuous_time_gaussian_diffusion.py	/^def log(t, eps = 1e-20):$/;"	f
+log	denoising_diffusion_pytorch/elucidated_diffusion.py	/^def log(t, eps = 1e-20):$/;"	f
+log	denoising_diffusion_pytorch/learned_gaussian_diffusion.py	/^def log(t, eps = 1e-15):$/;"	f
+long_description_content_type	setup.py	/^  long_description_content_type = 'text\/markdown',$/;"	v
+loss_fn	denoising_diffusion_pytorch/continuous_time_gaussian_diffusion.py	/^    def loss_fn(self):$/;"	m	class:ContinuousTimeGaussianDiffusion
+loss_fn	denoising_diffusion_pytorch/denoising_diffusion_pytorch.py	/^    def loss_fn(self):$/;"	m	class:GaussianDiffusion
+loss_weight	denoising_diffusion_pytorch/elucidated_diffusion.py	/^    def loss_weight(self, sigma):$/;"	m	class:ElucidatedDiffusion
+meanflat	denoising_diffusion_pytorch/learned_gaussian_diffusion.py	/^def meanflat(x):$/;"	f
+model_predictions	denoising_diffusion_pytorch/denoising_diffusion_pytorch.py	/^    def model_predictions(self, x, t, x_self_cond = None, clip_x_start = False):$/;"	m	class:GaussianDiffusion
+model_predictions	denoising_diffusion_pytorch/learned_gaussian_diffusion.py	/^    def model_predictions(self, x, t):$/;"	m	class:LearnedGaussianDiffusion
+name	setup.py	/^  name = 'denoising-diffusion-pytorch',$/;"	v
+noise_distribution	denoising_diffusion_pytorch/elucidated_diffusion.py	/^    def noise_distribution(self, batch_size):$/;"	m	class:ElucidatedDiffusion
+normal_kl	denoising_diffusion_pytorch/learned_gaussian_diffusion.py	/^def normal_kl(mean1, logvar1, mean2, logvar2):$/;"	f
+normalize_to_neg_one_to_one	denoising_diffusion_pytorch/continuous_time_gaussian_diffusion.py	/^def normalize_to_neg_one_to_one(img):$/;"	f
+normalize_to_neg_one_to_one	denoising_diffusion_pytorch/denoising_diffusion_pytorch.py	/^def normalize_to_neg_one_to_one(img):$/;"	f
+normalize_to_neg_one_to_one	denoising_diffusion_pytorch/elucidated_diffusion.py	/^def normalize_to_neg_one_to_one(img):$/;"	f
+num_to_groups	denoising_diffusion_pytorch/denoising_diffusion_pytorch.py	/^def num_to_groups(num, divisor):$/;"	f
+p_losses	denoising_diffusion_pytorch/continuous_time_gaussian_diffusion.py	/^    def p_losses(self, x_start, times, noise = None):$/;"	m	class:ContinuousTimeGaussianDiffusion
+p_losses	denoising_diffusion_pytorch/denoising_diffusion_pytorch.py	/^    def p_losses(self, x_start, t, noise = None):$/;"	m	class:GaussianDiffusion
+p_losses	denoising_diffusion_pytorch/learned_gaussian_diffusion.py	/^    def p_losses(self, x_start, t, noise = None, clip_denoised = False):$/;"	m	class:LearnedGaussianDiffusion
+p_losses	denoising_diffusion_pytorch/weighted_objective_gaussian_diffusion.py	/^    def p_losses(self, x_start, t, noise = None, clip_denoised = False):$/;"	m	class:WeightedObjectiveGaussianDiffusion
+p_mean_variance	denoising_diffusion_pytorch/continuous_time_gaussian_diffusion.py	/^    def p_mean_variance(self, x, time, time_next):$/;"	m	class:ContinuousTimeGaussianDiffusion
+p_mean_variance	denoising_diffusion_pytorch/denoising_diffusion_pytorch.py	/^    def p_mean_variance(self, x, t, x_self_cond = None, clip_denoised = True):$/;"	m	class:GaussianDiffusion
+p_mean_variance	denoising_diffusion_pytorch/learned_gaussian_diffusion.py	/^    def p_mean_variance(self, *, x, t, clip_denoised, model_output = None):$/;"	m	class:LearnedGaussianDiffusion
+p_mean_variance	denoising_diffusion_pytorch/weighted_objective_gaussian_diffusion.py	/^    def p_mean_variance(self, *, x, t, clip_denoised, model_output = None):$/;"	m	class:WeightedObjectiveGaussianDiffusion
+p_sample	denoising_diffusion_pytorch/continuous_time_gaussian_diffusion.py	/^    def p_sample(self, x, time, time_next):$/;"	m	class:ContinuousTimeGaussianDiffusion
+p_sample	denoising_diffusion_pytorch/denoising_diffusion_pytorch.py	/^    def p_sample(self, x, t: int, x_self_cond = None, clip_denoised = True):$/;"	m	class:GaussianDiffusion
+p_sample_loop	denoising_diffusion_pytorch/continuous_time_gaussian_diffusion.py	/^    def p_sample_loop(self, shape):$/;"	m	class:ContinuousTimeGaussianDiffusion
+p_sample_loop	denoising_diffusion_pytorch/denoising_diffusion_pytorch.py	/^    def p_sample_loop(self, shape):$/;"	m	class:GaussianDiffusion
+packages	setup.py	/^  packages = find_packages(),$/;"	v
+preconditioned_network_forward	denoising_diffusion_pytorch/elucidated_diffusion.py	/^    def preconditioned_network_forward(self, noised_images, sigma, self_cond = None, clamp = False):$/;"	m	class:ElucidatedDiffusion
+predict_noise_from_start	denoising_diffusion_pytorch/denoising_diffusion_pytorch.py	/^    def predict_noise_from_start(self, x_t, t, x0):$/;"	m	class:GaussianDiffusion
+predict_start_from_noise	denoising_diffusion_pytorch/denoising_diffusion_pytorch.py	/^    def predict_start_from_noise(self, x_t, t, noise):$/;"	m	class:GaussianDiffusion
+q_posterior	denoising_diffusion_pytorch/denoising_diffusion_pytorch.py	/^    def q_posterior(self, x_start, x_t, t):$/;"	m	class:GaussianDiffusion
+q_sample	denoising_diffusion_pytorch/continuous_time_gaussian_diffusion.py	/^    def q_sample(self, x_start, times, noise = None):$/;"	m	class:ContinuousTimeGaussianDiffusion
+q_sample	denoising_diffusion_pytorch/denoising_diffusion_pytorch.py	/^    def q_sample(self, x_start, t, noise=None):$/;"	m	class:GaussianDiffusion
+random_times	denoising_diffusion_pytorch/continuous_time_gaussian_diffusion.py	/^    def random_times(self, batch_size):$/;"	m	class:ContinuousTimeGaussianDiffusion
+right_pad_dims_to	denoising_diffusion_pytorch/continuous_time_gaussian_diffusion.py	/^def right_pad_dims_to(x, t):$/;"	f
+sample	denoising_diffusion_pytorch/continuous_time_gaussian_diffusion.py	/^    def sample(self, batch_size = 16):$/;"	m	class:ContinuousTimeGaussianDiffusion
+sample	denoising_diffusion_pytorch/denoising_diffusion_pytorch.py	/^    def sample(self, batch_size = 16):$/;"	m	class:GaussianDiffusion
+sample	denoising_diffusion_pytorch/elucidated_diffusion.py	/^    def sample(self, batch_size = 16, num_sample_steps = None, clamp = True):$/;"	m	class:ElucidatedDiffusion
+sample_schedule	denoising_diffusion_pytorch/elucidated_diffusion.py	/^    def sample_schedule(self, num_sample_steps = None):$/;"	m	class:ElucidatedDiffusion
+save	denoising_diffusion_pytorch/denoising_diffusion_pytorch.py	/^    def save(self, milestone):$/;"	m	class:Trainer
+train	denoising_diffusion_pytorch/denoising_diffusion_pytorch.py	/^    def train(self):$/;"	m	class:Trainer
+unnormalize_to_zero_to_one	denoising_diffusion_pytorch/continuous_time_gaussian_diffusion.py	/^def unnormalize_to_zero_to_one(t):$/;"	f
+unnormalize_to_zero_to_one	denoising_diffusion_pytorch/denoising_diffusion_pytorch.py	/^def unnormalize_to_zero_to_one(t):$/;"	f
+unnormalize_to_zero_to_one	denoising_diffusion_pytorch/elucidated_diffusion.py	/^def unnormalize_to_zero_to_one(t):$/;"	f
+url	setup.py	/^  url = 'https:\/\/github.com\/lucidrains\/denoising-diffusion-pytorch',$/;"	v
+version	setup.py	/^  version = '0.27.12',$/;"	v
